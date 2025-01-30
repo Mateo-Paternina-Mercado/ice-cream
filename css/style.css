@@ -31,16 +31,14 @@ header{
 }
 .header__nav li{
     /* background: yellow; */
-    list-style: none;
-    
+    list-style: none;   
 }
 .header__nav li a{
     font-family: "Poppins-SemiBold";
     color: var(--color-1);
     text-decoration: none;
     font-size: 28px;
-    display: flex;
-    
+    display: flex;  
 }
 .header__nav li a img{
     
@@ -49,5 +47,38 @@ header{
     /* background: violet; */
 }
 .header__menu img{
+    
+}
+
+main{
+    background: green;
+    padding-top: 45px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.section__container{
+    display: flex;
+    justify-content: space-between;
+}
+.section__jumping{
+    width: 679px;
+    background: violet;
+    display: flex;
+    flex-direction: column;
+}
+.section__jumping h1{
+    color: var(--color-1);
+    font-family: "Poppins-SemiBold";
+    font-size: 120px;
+    line-height: 110px;
+}
+.section__jumpingcontainer p{
+    
+}
+.div__buttons{
+    background: rebeccapurple;
+    display: flex;
+}
+.div__buttons a{
     
 }
