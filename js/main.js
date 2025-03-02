@@ -13,7 +13,7 @@ const products = [
         ]
     },
     {
-        image: "../storage/img/product_4.png",
+        image: "storage/img/product_4.png",
         name: "Chocolate Cup",
         "type-order": "On Table",
         price: [
